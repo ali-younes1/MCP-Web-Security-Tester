@@ -1,4 +1,4 @@
-# MCP Web Security Tester
+# 🔐 MCP Web Security Tester
 
 Python MCP server that connects Claude Desktop with a Playwright browser for authorized web security testing.
 
@@ -6,24 +6,24 @@ The project lets an AI open web pages, interact with forms, test one payload at 
 
 It is mainly focused on:
 
-SQL injection testing
-NoSQL injection testing
-XSS testing
-Browser-based evidence collection
-Baseline vs test response comparison
+- SQL injection testing
+- NoSQL injection testing
+- XSS testing
+- Browser-based evidence collection
+- Baseline vs test response comparison
 
 Instead of using a fixed payload library, the LLM generates payloads during testing, analyzes the results, and adapts its next steps based on the evidence returned by the tool.
 
 The design can be extended later with more guided testing strategies and vulnerability categories.
 
-## Tech Stack
+## 💻 Tech Stack
 
 Python
 Model Context Protocol SDK
 FastMCP
 Playwright
 
-## Installation
+## ⚙️ Installation
 
 Clone the repository:
 
@@ -62,7 +62,7 @@ Run the server:
 python server.py
 ```
 
-## Claude Desktop Configuration
+## 🤖 Claude Desktop Configuration
 
 Add the MCP server to your Claude Desktop configuration:
 
