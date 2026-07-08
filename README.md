@@ -18,10 +18,10 @@ The design can be extended later with more guided testing strategies and vulnera
 
 ## 💻 Tech Stack
 
-Python
-Model Context Protocol SDK
-FastMCP
-Playwright
+- Python
+- Model Context Protocol SDK
+- FastMCP
+- Playwright
 
 ## ⚙️ Installation
 
