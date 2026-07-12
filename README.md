@@ -25,13 +25,13 @@ The demo shows Claude Desktop using the MCP server to interact with the OWASP Ju
 
 Claude tests one payload at a time, receives browser and DOM evidence, analyzes the result, and adapts the next testing step.
 
-[▶️ Watch the demo](assets/demo.mp4)
+[▶️ Watch the demo](demo.mp4)
 
 The demonstrated workflow confirms a DOM-based XSS finding in the OWASP Juice Shop search functionality using browser and DOM evidence.
 
 ## 🔄 Main Workflow
 
-![MCP Web Security Tester Architecture](assets/architecture-diagram.png)
+![MCP Web Security Tester Architecture](architecture-diagram.png)
 
 The adaptive testing loop follows this process:
 
