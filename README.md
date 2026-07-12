@@ -35,10 +35,6 @@ The demonstrated workflow confirms a DOM-based XSS finding in the OWASP Juice Sh
 
 The adaptive testing loop follows this process:
 
-```text
-Test → Observe → Analyze → Adapt → Test Again
-```
-
 1. Claude selects a target element and generates one payload.
 2. The MCP server records the normal page behavior as a baseline.
 3. Playwright submits the payload through the browser.
