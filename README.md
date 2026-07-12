@@ -25,7 +25,7 @@ The demo shows Claude Desktop using the MCP server to interact with the OWASP Ju
 
 Claude tests one payload at a time, receives browser and DOM evidence, analyzes the result, and adapts the next testing step.
 
-[▶️ Watch the demo](04-demo.mp4)
+[▶️ Watch the demo](https://youtu.be/JEcNxH_9UKo)
 
 The demonstrated workflow confirms a DOM-based XSS finding in the OWASP Juice Shop search functionality using browser and DOM evidence.
 
