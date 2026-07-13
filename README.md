@@ -55,8 +55,8 @@ The adaptive testing loop follows this process:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/ali-younes1/MCP-Web-Security-Tester.git
+cd MCP-Web-Security-Tester
 ```
 
 Create a virtual environment:
@@ -97,9 +97,9 @@ Add the MCP server to your Claude Desktop configuration:
 {
   "mcpServers": {
     "mcp-security": {
-      "command": "C:\\Users\\PC\\OneDrive - ESPRIT\\Bureau\\mcp-python\\.venv\\Scripts\\python.exe",
+      "command": "C:\\path\\to\\project\\.venv\\Scripts\\python.exe",
       "args": [
-        "C:\\Users\\PC\\OneDrive - ESPRIT\\Bureau\\mcp-python\\MCP\\server.py"
+        "C:\\path\\to\\project\\server.py"
       ],
       "env": {
         "PYTHONUNBUFFERED": "1"
